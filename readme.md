@@ -9,6 +9,12 @@ The goal of this app is to generate dynamic specification from an excel spreadsh
 - [ ] Add search (jqmark ? lodash ?) 
 - [ ] Create multistep form to configure mapping before displaying 
 
+### Actual launch
+```
+npm run start
+```
+
+
 ### Actual Data Structure
 
 ```

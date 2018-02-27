@@ -289,3 +289,6 @@ __pycache__/
 
 #VisualStudioCode Settings
 .vscode
+
+#Specific import files
+import/PlanTest.xlsx
