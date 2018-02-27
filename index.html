@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Liste des US</h1>
+
+
+    <div id="us-wrapper"></div>
+
+
+    <footer class="footer"> We are using Node.js
+        <script>document.write(process.versions.node)</script>, Chromium
+        <script>document.write(process.versions.chrome)</script>, and Electron
+        <script>document.write(process.versions.electron)</script>.
+    </footer>
+
+
+    <script>
+        // You can also require other files to run in this process
+        require('./scripts/renderer.js')
+        require('./scripts/renderer2.js')
+    </script>
+</body>
+
+</html>
