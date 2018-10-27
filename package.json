@@ -1,6 +1,6 @@
 {
   "name": "jspec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Electron APP : Generation of Docx Specification from XLSX Spreadsheet",
   "main": "scripts/main.js",
   "scripts": {
@@ -9,13 +9,13 @@
   "author": "Alec ANNET-DESDAME",
   "license": "ISC",
   "dependencies": {
-    "docx": "3.1.0",
-    "exceljs": "0.8.1",
-    "lodash": "4.17.4"
+    "docx": "4.3.0",
+    "exceljs": "1.6.2",
+    "lodash": "4.17.11"
   },
   "devDependencies": {
-    "electron": "1.8.2",
-    "requirejs": "2.3.5",
+    "electron": "^3.0.6",
+    "requirejs": "2.3.6",
     "utils": "0.3.1"
   },
   "engines": {
